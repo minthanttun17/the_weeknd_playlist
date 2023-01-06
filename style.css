@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./img/the_weeknd.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.603);
+    justify-content: center;
+}
+
+.playlistContainer{
+    margin-bottom: 35px;
+}
+
+.trackItem {
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.msuicPlayer{
+    display: flex;
+    flex-direction: row;
+}
+
+.currentAndTotalTime{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+#progressBar{
+    width: 500px;
+    height: 5px;
+    background-color: white;
+}
+
+.songName{
+    margin-bottom: 20px;
+}
+
+#currentProgress{
+    width: 0%;
+    height: 100%;
+    background-color: red;
+}
+
+.controls{
+    font-size: 25px;
+    margin: 20px 40px;
+    cursor: pointer;
+}
+
+.pasueButton{
+    display: none;
+}
